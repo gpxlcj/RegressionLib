@@ -153,7 +153,7 @@ class RidgeRegression:
                     temp += A_trans[i][l] * A[l][j]
                 K[i].append(temp)
         for i in range(n):
-            K[i][i] += n_lambda
+            K[i][i] += self.n_lambda
 
         self.K = K
         self.A = A
@@ -173,10 +173,10 @@ class RidgeRegression:
             for j in range(i + 1, self.n):
                 self.add(i, j, -self.K[j][i])
             else:
-                if ((n == i + 1) or (self.K[i + 1][i + 1] != 0)):
+                if ((self.n == i + 1) or (self.K[i + 1][i + 1] != 0)):
                     continue
                 else:
-                    for l in range(i + 1, n):
+                    for l in range(i + 1, self.n):
                         if self.K[l] != 0:
                             self.swap(i, l)
         for i in range(self.n)[::-1]:
