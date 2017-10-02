@@ -22,4 +22,4 @@ positional arguments:
 
 - How to work?
 example:
-python hw1.py test.txt 3 1
+python test.py test.txt 3 1
