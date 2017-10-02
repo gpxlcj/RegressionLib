@@ -15,11 +15,11 @@ Example
 ============
 We offer a simple example to test:
 - Input option
-positional arguments:<\br>
+positional arguments:  
   - - file_name   please input data file name, like test.txt
   - - n           the number of polynomial bases
   - - n_lambda    regularized parameter, lambda
 
-- How to work?<\br>
-example:
+- How to work?  
+example:  
 python test.py test.txt 3 1
