@@ -5,7 +5,7 @@ progress
 ============
  - Ridge Regression
  - Logistic Regression
-   Bayesian Linear Regression (unfinished) 
+ - Bayesian Linear Regression (unfinished) 
 
 Requirement
 ============
