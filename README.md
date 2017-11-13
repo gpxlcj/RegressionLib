@@ -3,8 +3,9 @@ RegressionLib
 
 progress
 ============
- - RidgeRegression
- - LogisticRegression(unfinished)
+ - Ridge Regression
+ - Logistic Regression
+   Bayesian Linear Regression (unfinished) 
 
 Requirement
 ============
